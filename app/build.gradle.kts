@@ -50,7 +50,12 @@ dependencies {
     // Compose BOM (para manejar versiones automáticamente)
     implementation(platform("androidx.compose:compose-bom:2024.09.00"))
     implementation(libs.androidx.compose.foundation)
-
+    implementation("androidx.compose.material:material:1.6.8")
+    implementation("androidx.compose.ui:ui:1.6.8")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.6.8")
+    implementation("androidx.activity:activity-compose:1.9.2")
+    implementation("androidx.compose.material:material-icons-core:1.6.8")
+    implementation("androidx.compose.material:material-icons-extended:1.6.8")
     // Core y ciclo de vida
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.6")
